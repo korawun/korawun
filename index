@@ -1,0 +1,103 @@
+ขอบคุณสำหรับข้อมูล ผมจะสร้างหน้าเว็บส่วนตัวให้คุณนางสาวกรวรรณ บานศรี สำหรับการนำเสนอการทำงานให้ผู้อำนวยการตรวจสอบการทำงาน โดยจะรวมข้อมูลพื้นฐานและการทำงานที่เกี่ยวข้องทั้งหมด
+
+```html
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>นางสาวกรวรรณ บานศรี</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .main {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        .main h1 {
+            color: #333;
+        }
+        .main p {
+            font-size: 18px;
+        }
+        footer {
+            background: #50b3a2;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>นางสาวกรวรรณ บานศรี</h1>
+            <ul>
+                <li><a href="#about">เกี่ยวกับ</a></li>
+                <li><a href="#work">การทำงาน</a></li>
+                <li><a href="#contact">ติดต่อ</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <section id="about" class="main">
+            <h1>เกี่ยวกับ</h1>
+            <p>ชื่อ: นางสาวกรวรรณ บานศรี</p>
+            <p>อายุ: 39 ปี</p>
+            <p>ตำแหน่ง: ครูพี่เลี้ยงเด็กพิการ</p>
+            <p>สอนชั้น: ประถมศึกษาปีที่ 5</p>
+        </section>
+        <section id="work" class="main">
+            <h1>การทำงาน</h1>
+            <p>นางสาวกรวรรณ บานศรี มีหน้าที่รับผิดชอบในการดูแลและสอนเด็กพิการในระดับชั้นประถมศึกษาปีที่ 5 โดยมีการปรับวิธีการสอนให้เหมาะสมกับความต้องการพิเศษของเด็กแต่ละคน เพื่อให้เด็กทุกคนสามารถเรียนรู้และพัฒนาตนเองได้อย่างเต็มที่</p>
+        </section>
+        <section id="contact" class="main">
+            <h1>ติดต่อ</h1>
+            <p>อีเมล: example@example.com</p>
+            <p>เบอร์โทรศัพท์: 080-123-4567</p>
+        </section>
+    </div>
+    <footer>
+        <p>Copyright &copy; 2024 นางสาวกรวรรณ บานศรี</p>
+    </footer>
+</body>
+</html>
+```
+
+นี่เป็นโครงสร้างพื้นฐานของหน้าเว็บส่วนตัวของคุณนางสาวกรวรรณ บานศรี สามารถเพิ่มเติมรายละเอียดเพิ่มเติมหรือปรับแต่งดีไซน์ตามความต้องการเพิ่มเติมได้ครับ
